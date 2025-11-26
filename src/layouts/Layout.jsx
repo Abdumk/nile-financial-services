@@ -166,7 +166,7 @@ const Layout = ({ children }) => {
                 <div className="flex items-start gap-3">
                   <FaPhone className="mt-1 text-gold flex-shrink-0" />
                   <a href="tel:+1 571-306-9039" className="hover:text-gold transition">
-                    ++1 571-306-9039
+                    +1 571-306-9039
                   </a>
                 </div>
                 <div className="flex items-start gap-3">
