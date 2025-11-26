@@ -79,7 +79,7 @@ ${formData.message || 'None'}
 Please contact the customer to confirm this appointment.
 
 Addis Financial Services
-Phone: 571-306-9039
+Phone: +1 571-306-9039
           `
         })
       })
@@ -109,7 +109,7 @@ Phone: 571-306-9039
     } catch (error) {
       console.error('❌ Error submitting booking:', error)
       setSending(false)
-      alert('There was an error submitting your booking. Please call us at 571-306-9039 or email admin@nilefinancialservices.com')
+      alert('There was an error submitting your booking. Please call us at +1 571-306-9039 or email admin@nilefinancialservices.com')
     }
   }
 

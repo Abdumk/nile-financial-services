@@ -285,7 +285,7 @@ https://app.netlify.com/drop
 ## 📞 **Your Live Site Will Have:**
 
 - ✅ Company: Addis Financial Services
-- ✅ Phone: 571-306-9039
+- ✅ Phone: +1 571-306-9039
 - ✅ Email: admin@nilefinancialservices.com
 - ✅ Booking system (with email notifications)
 - ✅ Live chat

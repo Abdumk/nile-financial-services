@@ -86,7 +86,7 @@ colors: {
 
 ### Change Contact Info
 Edit `src/layouts/Layout.jsx`:
-- Search for "571-306-9039"
+- Search for "+1 571-306-9039"
 - Search for "admin@nilefinancialservices.com"
 - Replace with your info
 
@@ -245,6 +245,6 @@ Your website is complete and ready to use. Just follow the steps above to get st
 **Built with ❤️ for Nile Financial Services**
 
 **Contact Info:**
-- Phone: 571-306-9039
+- Phone: +1 571-306-9039
 - Email: admin@nilefinancialservices.com
 - Hours: Mon-Fri 9AM-6PM, Sat 10AM-4PM

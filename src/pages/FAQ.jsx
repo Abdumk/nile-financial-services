@@ -11,7 +11,7 @@ const FAQ = () => {
     },
     {
       question: 'How can I contact you?',
-      answer: 'You can reach us by phone at 571-306-9039 or via email at admin@nilefinancialservices.com. Our office hours are Monday-Friday: 9:00 AM - 6:00 PM and Saturday: 10:00 AM - 4:00 PM. You can also use our chatbot for immediate assistance.'
+      answer: 'You can reach us by phone at +1 571-306-9039 or via email at admin@nilefinancialservices.com. Our office hours are Monday-Friday: 9:00 AM - 6:00 PM and Saturday: 10:00 AM - 4:00 PM. You can also use our chatbot for immediate assistance.'
     },
     {
       question: 'What is your refund policy?',
@@ -23,7 +23,7 @@ const FAQ = () => {
     },
     {
       question: 'How do I schedule an appointment?',
-      answer: 'Scheduling an appointment is easy! You can call us at 571-306-9039, email us at admin@nilefinancialservices.com, or use the contact form on our website. We\'ll work with you to find a convenient time for your consultation.'
+      answer: 'Scheduling an appointment is easy! You can call us at +1 571-306-9039, email us at admin@nilefinancialservices.com, or use the contact form on our website. We\'ll work with you to find a convenient time for your consultation.'
     },
     {
       question: 'What are your office hours?',
@@ -106,7 +106,7 @@ const FAQ = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:571-306-9039"
+                href="tel:+1 571-306-9039"
                 className="bg-white text-gold px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
               >
                 Call Us Now
@@ -135,8 +135,8 @@ const FAQ = () => {
               <div className="text-4xl text-gold mb-3">📞</div>
               <h3 className="font-bold text-primary mb-2">Call Us</h3>
               <p className="text-gray-600 text-sm mb-3">Speak directly with our team</p>
-              <a href="tel:571-306-9039" className="text-gold font-semibold hover:underline">
-                571-306-9039
+              <a href="tel:+1 571-306-9039" className="text-gold font-semibold hover:underline">
+                +1 571-306-9039
               </a>
             </div>
 

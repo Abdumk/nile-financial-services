@@ -70,7 +70,7 @@ const PrivacyPolicy = () => {
               </p>
               <p className="text-gray-700 dark:text-gray-300">
                 <strong>Email:</strong> <a href="mailto:admin@nilefinancialservices.com" className="text-gold hover:underline">admin@nilefinancialservices.com</a><br />
-                <strong>Phone:</strong> <a href="tel:+15713069039" className="text-gold hover:underline">+1 571-306-9039</a>
+                <strong>Phone:</strong> <a href="tel:+15713069039" className="text-gold hover:underline">+1 +1 571-306-9039</a>
               </p>
             </div>
 

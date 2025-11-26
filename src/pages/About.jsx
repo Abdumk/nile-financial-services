@@ -207,10 +207,10 @@ const About = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:571-306-9039"
+              href="tel:+1 571-306-9039"
               className="bg-gold text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gold-dark transition"
             >
-              Call: 571-306-9039
+              Call: +1 571-306-9039
             </a>
             <a
               href="mailto:admin@nilefinancialservices.com"

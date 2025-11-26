@@ -21,7 +21,7 @@
 
 ### Hero Section
 - [x] Title: "Your Trusted Partner for Tax Preparation & Financial Solutions"
-- [x] Call Now: 571-306-9039
+- [x] Call Now: +1 571-306-9039
 - [x] Email: admin@nilefinancialservices.com
 - [x] CTA button: "Book Appointment"
 - [x] CTA button: "Contact Us"
@@ -134,7 +134,7 @@
 - [x] Company information
 - [x] Quick links
 - [x] Contact information
-- [x] Phone: 571-306-9039
+- [x] Phone: +1 571-306-9039
 - [x] Email: admin@nilefinancialservices.com
 - [x] Location placeholder
 - [x] Working hours

@@ -67,9 +67,9 @@ const Home = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <a href="tel:571-306-9039" className="flex items-center gap-2 text-xl">
+            <a href="tel:+1 571-306-9039" className="flex items-center gap-2 text-xl">
               <FaFileInvoiceDollar className="text-gold" />
-              <span className="font-semibold">Call Now: 571-306-9039</span>
+              <span className="font-semibold">Call Now: +1 571-306-9039</span>
             </a>
             <span className="hidden sm:block text-gold">|</span>
             <a href="mailto:admin@nilefinancialservices.com" className="text-lg hover:text-gold transition">
@@ -200,10 +200,10 @@ const Home = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:571-306-9039"
+              href="tel:+1 571-306-9039"
               className="bg-gold text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gold-dark transition"
             >
-              Call: 571-306-9039
+              Call: +1 571-306-9039
             </a>
             <a
               href="mailto:admin@nilefinancialservices.com"

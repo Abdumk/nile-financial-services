@@ -214,7 +214,7 @@ const handleSubmit = async (e) => {
   } catch (error) {
     console.error('Error:', error)
     setSending(false)
-    alert('Error submitting booking. Please call 571-306-9039')
+    alert('Error submitting booking. Please call +1 571-306-9039')
   }
 }
 ```
@@ -371,7 +371,7 @@ Keep a spreadsheet of bookings until you add a database
 Reply to bookings within 24 hours for best customer experience
 
 ### 5. Backup Method
-Always show your phone number: 571-306-9039
+Always show your phone number: +1 571-306-9039
 
 ---
 

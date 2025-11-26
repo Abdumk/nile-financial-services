@@ -20,7 +20,7 @@ A complete, production-ready static website for **Nile Financial Services** - a 
 
 #### 1. Home Page (`/`)
 - Hero section with company tagline
-- Contact info: 571-306-9039 | admin@nilefinancialservices.com
+- Contact info: +1 571-306-9039 | admin@nilefinancialservices.com
 - CTA buttons: "Book Appointment" & "Contact Us"
 - Tax Season 2025 banner with IRS authorization badge
 - 4 main service cards with icons
@@ -128,7 +128,7 @@ nile-financial-services/
 
 ## 📞 Contact Information
 
-- **Phone**: 571-306-9039
+- **Phone**: +1 571-306-9039
 - **Email**: admin@nilefinancialservices.com
 - **Hours**: 
   - Monday - Friday: 9:00 AM - 6:00 PM

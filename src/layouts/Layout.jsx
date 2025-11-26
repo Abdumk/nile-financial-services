@@ -27,9 +27,9 @@ const Layout = ({ children }) => {
       <div className="bg-primary dark:bg-gray-900 text-white py-2 px-4 transition-colors">
         <div className="container mx-auto flex flex-wrap justify-between items-center text-sm">
           <div className="flex items-center gap-4">
-            <a href="tel:571-306-9039" className="flex items-center gap-2 hover:text-gold transition">
+            <a href="tel:+1 571-306-9039" className="flex items-center gap-2 hover:text-gold transition">
               <FaPhone className="text-xs" />
-              <span>571-306-9039</span>
+              <span>+1 571-306-9039</span>
             </a>
             <a href="mailto:admin@nilefinancialservices.com" className="hidden sm:flex items-center gap-2 hover:text-gold transition">
               <FaEnvelope className="text-xs" />
@@ -165,8 +165,8 @@ const Layout = ({ children }) => {
               <div className="space-y-3 text-gray-400">
                 <div className="flex items-start gap-3">
                   <FaPhone className="mt-1 text-gold flex-shrink-0" />
-                  <a href="tel:571-306-9039" className="hover:text-gold transition">
-                    571-306-9039
+                  <a href="tel:+1 571-306-9039" className="hover:text-gold transition">
+                    ++1 571-306-9039
                   </a>
                 </div>
                 <div className="flex items-start gap-3">

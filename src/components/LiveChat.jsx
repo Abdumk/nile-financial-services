@@ -29,12 +29,12 @@ const LiveChat = ({ isOpen, onClose }) => {
   ]
 
   const botResponses = {
-    'book an appointment': 'Great! You can book an appointment by calling us at 571-306-9039 or clicking the "Book Appointment" button on our website.',
+    'book an appointment': 'Great! You can book an appointment by calling us at +1 571-306-9039 or clicking the "Book Appointment" button on our website.',
     'tax services': 'We offer Individual & Business Tax Preparation, Tax Planning, E-filing, and Fast Refunds. We\'re an authorized IRS e-file provider!',
     'insurance services': 'We provide Health & Life Insurance services, including ACA (ObamaCare) enrollment, plan comparisons, and personalized guidance.',
     'office hours': 'Our office hours are:\nMonday-Friday: 9:00 AM - 6:00 PM\nSaturday: 10:00 AM - 4:00 PM\nSunday: Closed',
-    'contact information': 'You can reach us at:\n📞 Phone: 571-306-9039\n✉️ Email: admin@nilefinancialservices.com',
-    'default': 'Thank you for your message! For immediate assistance, please call us at 571-306-9039 or email admin@nilefinancialservices.com'
+    'contact information': 'You can reach us at:\n📞 Phone: +1 571-306-9039\n✉️ Email: admin@nilefinancialservices.com',
+    'default': 'Thank you for your message! For immediate assistance, please call us at +1 571-306-9039 or email admin@nilefinancialservices.com'
   }
 
   const handleSendMessage = (text = inputMessage) => {
