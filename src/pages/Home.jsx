@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaFileInvoiceDollar, FaShieldAlt, FaBolt, FaChartLine, FaCheckCircle, FaAward, FaUsers, FaLock } from 'react-icons/fa'
 import BookingModal from '../components/BookingModal'
+import irsCertificate from '../assets/irs-certificate.png'
 
 const Home = () => {
   const [isBookingOpen, setIsBookingOpen] = useState(false)
@@ -152,27 +153,61 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-white dark:bg-gray-900">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-primary mb-4">Why Choose Us</h2>
-            <p className="text-xl text-gray-600">Experience the difference with Nile Financial Services</p>
+            <h2 className="text-4xl font-bold text-primary dark:text-blue-400 mb-4">Why Choose Us</h2>
+            <p className="text-xl text-gray-600 dark:text-gray-400">Experience the difference with Addis Financial Services</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
             {whyChooseUs.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-4 p-6 bg-gray-50 rounded-lg hover:bg-gold hover:text-white transition group"
+                className="flex items-center gap-4 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gold hover:text-white transition group"
               >
                 <div className="text-3xl text-gold group-hover:text-white transition">
                   {item.icon}
                 </div>
-                <p className="font-semibold text-gray-700 group-hover:text-white transition">
+                <p className="font-semibold text-gray-700 dark:text-gray-300 group-hover:text-white transition">
                   {item.text}
                 </p>
               </div>
             ))}
+          </div>
+
+          {/* IRS Certificate Badge */}
+          <div className="max-w-3xl mx-auto">
+            <div className="bg-gradient-to-br from-primary to-primary-dark p-8 rounded-lg shadow-xl text-center">
+              <h3 className="text-2xl font-bold text-white mb-6">Authorized IRS E-File Provider</h3>
+              <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+                <img 
+                  src={irsCertificate} 
+                  alt="IRS E-File Certificate" 
+                  className="w-48 h-auto object-contain rounded-lg shadow-2xl cursor-pointer hover:scale-105 transition-transform"
+                  onClick={() => window.open(irsCertificate, '_blank')}
+                />
+                <div className="text-left text-white">
+                  <p className="text-lg mb-4">
+                    We are officially authorized by the IRS to electronically file tax returns.
+                  </p>
+                  <ul className="space-y-2">
+                    <li className="flex items-center gap-2">
+                      <FaCheckCircle className="text-gold" />
+                      <span>Secure electronic filing</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <FaCheckCircle className="text-gold" />
+                      <span>Faster refund processing</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <FaCheckCircle className="text-gold" />
+                      <span>IRS compliance guaranteed</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -183,7 +218,7 @@ const Home = () => {
           <h2 className="text-4xl font-bold mb-6">Contact Us Today</h2>
           <p className="text-xl mb-8">Ready to get started? We're here to help!</p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto mb-8">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto mb-8">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-4 text-gold">Location</h3>
               <p>Available Upon Request</p>
@@ -196,7 +231,7 @@ const Home = () => {
               <p>Saturday: 10:00 AM - 4:00 PM</p>
               <p className="text-sm mt-2 text-blue-200">Sunday: Closed</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
